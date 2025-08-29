@@ -963,7 +963,7 @@
       "text": "Evacua e proteggi i sopravvissuti, avvia le necessarie opere di ricostruzione",
       "uniques": [
           "Gain [-500] [Gold]",
-        "[-1] population [in capital]",
+        "[-1] population [in cities with a [Palace]]",
          "Gain [+1] [Happiness]",
            "Gain [+5] [Happiness] <for [12] turns>",
         "Display message to all players: \"Una civiltà ha reagito a un'eruzione vulcanica evacuando e salvando vite umane ed avviando la ricostruzione.\""
