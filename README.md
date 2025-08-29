@@ -1,5 +1,9 @@
-# Unciv-mod-example
+# Unciv-O-Fortuna-mod
 
-An example mod for Unciv, that adds one new Civilization.
+«O fortuna
+velut luna
+statu variabilis
+semper crescis
+aut decrescis»
 
-For information on how to build and use mods, please refer to [the setup instructions](https://yairm210.github.io/Unciv/Modders/Making-a-new-Civilization/)
+Just as the waves of the sea can at any moment alter the course of a ship, helping or hindering it, so the goddess Fortune can at any moment upend the lives of men and even entire populations. Will you be able to steer your civilization through the waves of history?
