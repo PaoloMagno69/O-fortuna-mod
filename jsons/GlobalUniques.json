@@ -59,13 +59,13 @@
           "Triggers a [Epidemia Locale] event <for [Major] Civilizations> <upon turn end> <with [1]% chance>",
           "Triggers a [Grande Siccità] event <for [Major] Civilizations> <upon turn end> <with [1]% chance>",
 
-          "Triggers a [Eruzione Vulcanica] event <for [Major] Civilizations> <upon turn end> <with [0.2]% chance>",
-          "Triggers a [Grande Terremoto] event <for [Major] Civilizations> <upon turn end> <with [0.2]% chance>",
-          "Triggers a [Tsunami Devastante] event <for [Major] Civilizations> <upon turn end> <with [0.2]% chance>",
+          "Triggers a [Eruzione Vulcanica] event <for [Major] Civilizations> <upon turn end> <with [1]% chance> <every [5] turns>",
+          "Triggers a [Grande Terremoto] event <for [Major] Civilizations> <upon turn end> <with [1]% chance> <every [5] turns>",
+          "Triggers a [Tsunami Devastante] event <for [Major] Civilizations> <upon turn end> <with [1]% chance> <every [5] turns>",
 
-           "Triggers a [Peste Globale] event <for [Major] Civilizations> <upon turn end> <with [0.2]% chance> <before the [Industrial era]>",
-           "Triggers a [Pandemia di Influenza] event <for [Major] Civilizations> <upon turn end> <with [0.2]% chance> <starting from the [Industrial era]> <before the [Modern era]>",
-           "Triggers a [Pandemia da Laboratorio] event <for [Major] Civilizations> <upon turn end> <with [0.2]% chance> <starting from the [Modern era]>"
+           "Triggers a [Peste Globale] event <for [Major] Civilizations> <upon turn end> <with [1]% chance> <every [5] turns> <before the [Industrial era]>",
+           "Triggers a [Pandemia di Influenza] event <for [Major] Civilizations> <upon turn end> <with [1]% chance> <every [5] turns> <starting from the [Industrial era]> <before the [Modern era]>",
+           "Triggers a [Pandemia da Laboratorio] event <for [Major] Civilizations> <upon turn end> <with [1]% chance> <every [5] turns> <starting from the [Modern era]>"
 
 	]
 }
