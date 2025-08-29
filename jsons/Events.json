@@ -766,6 +766,338 @@
 // O FORTUNA
 // =====================================
 
+// =====================================
+// DISASTRI NATURALI ALTA PROB BASSA MAGNITUDO
+{
+  "name": "Alluvione Locale",
+  "text": "Le piogge intense hanno fatto esondare un fiume, danneggiando raccolti e infrastrutture.",
+  "choices": [
+    {
+      "text": "Faremo quel che si può ma non possiamo impedire i disastri naturali, il popolo capirà",
+      "uniques": [
+        "[-1 Food] [in all cities] <for [5] turns>",
+        "[-1 Production] [in all cities] <for [5] turns>",
+        "[-1 Happiness]",
+        "[-3 Happiness] <for [5] turns>",
+        "Display message to all players: \"Una civiltà ha subito un'alluvione e ha scelto di subire i danni.\""
+      ]
+    },
+    {
+      "text": "Faremo tutti glininterventi possibili per supportare il nostro popolo!",
+      "uniques": [
+        "[-50 Gold]",
+        "[-1 Food] [in all cities] <for [3] turns>",
+        "[+1 Happiness]",
+        "[+2 Happiness] <for [5] turns>",
+        "Display message to all players: \"Una civiltà ha reagito a un'alluvione costruendo argini e opere idrauliche.\""
+      ]
+    }
+  ]
+},
+{
+  "name": "Siccità Moderata",
+  "text": "Un periodo di scarse piogge mette sotto pressione le riserve alimentari.",
+  "choices": [
+    {
+      "text": "Subisci la carestia",
+      "uniques": [
+        "[-2 Food] [in all cities] <for [4] turns>",
+        "[-1 Happiness]",
+        "[-2 Happiness] <for [4] turns>",
+        "Display message to all players: \"Una civiltà ha subito una siccità e ha accettato la carestia.\""
+      ]
+    },
+    {
+      "text": "Investi in pozzi e irrigazione",
+      "uniques": [
+        "[-40 Gold]",
+        "[-1 Food] [in all cities] <for [2] turns>",
+        "[+1 Happiness]",
+        "[+2 Happiness] <for [4] turns>",
+        "Display message to all players: \"Una civiltà ha reagito a una siccità costruendo pozzi e canali di irrigazione.\""
+      ]
+    }
+  ]
+},
+{
+  "name": "Tempesta Devastante",
+  "text": "Una tempesta ha colpito villaggi e campi agricoli, causando distruzione.",
+  "choices": [
+    {
+      "text": "Subisci le perdite",
+      "uniques": [
+        "[-1 Food] [in all cities] <for [3] turns>",
+        "[-1 Production] [in all cities] <for [3] turns>",
+        "[-1 Happiness]",
+        "[-2 Happiness] <for [3] turns>",
+        "Display message to all players: \"Una civiltà è stata colpita da una tempesta e ha subito le perdite.\""
+      ]
+    },
+    {
+      "text": "Ripara i danni immediatamente",
+      "uniques": [
+        "[-30 Gold]",
+        "[+1 Happiness]",
+        "[+2 Happiness] <for [3] turns>",
+        "Display message to all players: \"Una civiltà ha reagito a una tempesta con lavori di riparazione immediati.\""
+      ]
+    }
+  ]
+},
+// =====================================
+// DISASTRI NATURALI MEDIA PROB MEDIA MAGNITUDO
+{
+  "name": "Invasione di Cavallette",
+  "text": "Sciami di cavallette devastano i campi agricoli, compromettendo il cibo.",
+  "choices": [
+    {
+      "text": "Cosa potremmo mai fare per fermare questa piaga?",
+      "uniques": [
+        "[-4 Food] [in all cities] <for [8] turns>",
+        "[-1 Happiness]",
+        "[-3 Happiness] <for [8] turns>",
+        "Display message to all players: \"Una civiltà è stata devastata da cavallette e ha subito i danni.\""
+      ]
+    },
+    {
+      "text": "Combatteremo questi sciami con ogni mezzo",
+      "uniques": [
+        "[-150 Gold]",
+        "[-1 Food] [in all cities] <for [4] turns>",
+        "[+1 Happiness]",
+        "[+4 Happiness] <for [8] turns>",
+        "Display message to all players: \"Una civiltà ha reagito a un'invasione di cavallette con misure drastiche.\""
+      ]
+    }
+  ]
+},
+{
+  "name": "Grande Alluvione",
+  "text": "Un fiume in piena sommerge intere pianure, distruggendo campi e infrastrutture.",
+  "choices": [
+    {
+      "text": "Contro la natura siamo piccoli e insignificanti, accetta le perdite",
+      "uniques": [
+        "[-3 Food] [in all cities] <for [8] turns>",
+        "[-1 Happiness]",
+        "[-3 Happiness] <for [8] turns>",
+        "Display message to all players: \"Una civiltà è stata colpita da una grande alluvione e ha subito gravi perdite.\""
+      ]
+    },
+    {
+      "text": "Intervieni con opere gigantesche",
+      "uniques": [
+        "[-200 Gold]",
+        "[-1 Food] [in all cities] <for [4] turns>",
+        "[+1 Happiness]",
+        "[+5 Happiness] <for [8] turns>",
+        "Display message to all players: \"Una civiltà ha reagito a una grande alluvione con enormi opere di ingegneria.\""
+      ]
+    }
+  ]
+},
+{
+  "name": "Epidemia Locale",
+  "text": "Una epidemia colpisce la capitale, causando morti e paura.",
+  "choices": [
+    {
+      "text": "Lascia che si estingua naturalmente",
+      "uniques": [
+        "Lose [1] Population [in capital]",
+        "[-1 Happiness]",
+        "[-2 Happiness] <for [6] turns>",
+        "Display message to all players: \"Una civiltà è stata colpita da un'epidemia locale e non è intervenuta.\""
+      ]
+    },
+    {
+      "text": "Fornisci i migliori guaritori e le migliori medicine disponibili",
+      "uniques": [
+        "[-100 Gold]",
+        "[+1 Happiness]",
+        "[+2 Happiness] <for [6] turns>",
+        "Display message to all players: \"Una civiltà ha reagito a un'epidemia locale con cure e medicine.\""
+      ]
+    }
+  ]
+},
+{
+  "name": "Grande Siccità",
+  "text": "Un lunghissimo periodo senza piogge devasta i raccolti e prosciuga i fiumi, mettendo in ginocchio l'agricoltura.",
+  "choices": [
+    {
+      "text": "Lascia che la natura segua il suo corso",
+      "uniques": [
+        "[-4 Food] [in all cities] <for [10] turns>",
+        "[-1 Happiness]",
+        "[-3 Happiness] <for [10] turns>",
+        "Display message to all players: \"Una civiltà è stata colpita da una grande siccità e ha subito gravi perdite.\""
+      ]
+    },
+    {
+      "text": "Interventi massicci di irrigazione e scavi",
+      "uniques": [
+        "[-250 Gold]",
+        "[-1 Food] [in all cities] <for [5] turns>",
+        "[+1 Happiness]",
+        "[+4 Happiness] <for [10] turns>",
+        "Display message to all players: \"Una civiltà ha reagito a una grande siccità con imponenti opere idriche.\""
+      ]
+    }
+  ]
+},
+// =====================================
+// DISASTRI NATURALI BASSA PROB ALTA MAGNITUDO
+{
+  "name": "Eruzione Vulcanica",
+  "text": "L'eruzione di un grande vulcano ha uscurato il cielo, devastato enormi territori e messo in ginocchio l'impero",
+  "choices": [
+    {
+      "text": "Il fato ci han punito: non possiamo che piegarci al suo volere",
+      "uniques": [
+        "Lose [2] Population [in all cities]",
+        "[-1 Happiness]",
+        "[-5 Happiness] <for [12] turns>",
+        "Display message to all players: \"Una civiltà è stata devastata da un'eruzione vulcanica e ha subito la catastrofe.\""
+      ]
+    },
+    {
+      "text": "Evacua e proteggi i sopravvissuti, avvia le necessarie opere di ricostruzione",
+      "uniques": [
+        "[-500 Gold]",
+        "Lose [1] Population [in capital]",
+        "[+1 Happiness]",
+        "[+6 Happiness] <for [12] turns>",
+        "Display message to all players: \"Una civiltà ha reagito a un'eruzione vulcanica evacuando e salvando vite umane ed avviando la ricostruzione.\""
+      ]
+    }
+  ]
+},
+{
+  "name": "Grande Terremoto",
+  "text": "Un terremoto catastrofico scuote la regione, distruggendo edifici e campi.",
+  "choices": [
+    {
+      "text": "Il fato ci han punito: non possiamo che piegarci al suo volere",
+      "uniques": [
+        "Lose [1] Population [in all cities]",
+        "[-1 Happiness]",
+        "[-4 Happiness] <for [10] turns>",
+        "Display message to all players: \"Una civiltà ha subito un grande terremoto con danni enormi.\""
+      ]
+    },
+    {
+      "text": "Evacua e proteggi i sopravvissuti, avvia le necessarie opere di ricostruzione",
+      "uniques": [
+        "[-400 Gold]",
+        "[+1 Happiness]",
+        "[+5 Happiness] <for [10] turns>",
+        "Display message to all players: \"Una civiltà ha reagito a un grande terremoto con lavori di soccorso e rinforzo.\""
+      ]
+    }
+  ]
+},
+{
+  "name": "Tsunami Devastante",
+  "text": "Un'onda gigantesca travolge le coste, causando danni incalcolabili.",
+  "choices": [
+    {
+      "text": "Il fato ci han punito: non possiamo che piegarci al suo volere",
+      "uniques": [
+        "Lose [2] Population [in all cities]",
+        "[-1 Happiness]",
+        "[-6 Happiness] <for [12] turns>",
+        "Display message to all players: \"Una civiltà è stata colpita da un tsunami e ha subito danni terribili.\""
+      ]
+    },
+    {
+      "text": "Evacua e proteggi le coste",
+      "uniques": [
+        "[-600 Gold]",
+        "[+1 Happiness]",
+        "[+6 Happiness] <for [12] turns>",
+        "Display message to all players: \"Una civiltà ha reagito a un devastante tsunami proteggendo le sue coste.\""
+      ]
+    }
+  ]
+},
 
+{
+  "name": "Peste Globale",
+  "text": "Una grande peste si diffonde in tutto il mondo, colpendo città e villaggi: sarà forse la fine dell'umanità?.",
+  "choices": [
+    {
+      "text": "Ognuno preghi i suoi dei, solo loro possono salvarci!",
+      "uniques": [
+        "Lose [3] Population [in all cities]",
+        "[-1 Happiness]",
+        "[-10 Happiness] <for [20] turns>",
+        "Display message to all players: \"Una civiltà è stata colpita dalla Grande Peste e ha subito le perdite.\""
+      ]
+    },
+    {
+      "text": "Non abbiamo mai dovuto affrontare una prova così grande ma non ci arrenderemo: mobilitate guaritori, templi e scienziati!",
+      "uniques": [
+        "[-1000 Gold]",
+		 "Lose [1] Population [in all cities]",
+        "[+1 Happiness]",
+        "[-7 Happiness] <for [5] turns>",
+        "[+4 Happiness] <for [12] turns>",
+        "Display message to all players: \"Una civiltà ha reagito alla Grande Peste con riti e cure diffuse.\""
+      ]
+    }
+  ]
+},
+{
+  "name": "Pandemia di Influenza",
+  "text": "Una pandemia influenzale si diffonde tra le città, paralizzando economie e popolazioni.",
+  "choices": [
+    {
+      "text": "Ognuno preghi il suo dio, solo lui può salvarci!",
+      "uniques": [
+        "Lose [3] Population [in all cities]",
+        "[-1 Happiness]",
+        "[-10 Happiness] <for [20] turns>",
+        "Display message to all players: \"Una civiltà ha subito la Pandemia di Influenza e ha accettato le conseguenze.\""
+      ]
+    },
+    {
+      "text": "Non abbiamo mai dovuto affrontare una prova così grande ma non ci arrenderemo: mobilitate medici e ospedali!",
+      "uniques": [
+        "[-1000 Gold]",
+		 "Lose [1] Population [in all cities]",
+        "[+1 Happiness]",
+        "[-7 Happiness] <for [5] turns>",
+        "[+4 Happiness] <for [12] turns>",
+        "Display message to all players: \"Una civiltà ha reagito alla Pandemia di Influenza con misure straordinarie.\""
+      ]
+    }
+  ]
+},
+{
+  "name": "Pandemia da Laboratorio",
+  "text": "Un virus manipolato geneticamente è sfuggito da un laboratorio, causando panico globale.",
+  "choices": [
+    {
+      "text": "Siamo la causa della nostra distruzione, non possiamo che sperare nella fortuna",
+      "uniques": [
+        "Lose [3] Population [in all cities]",
+        "[-1 Happiness]",
+        "[-10 Happiness] <for [20] turns>",
+        "Display message to all players: \"Una civiltà ha subito una Pandemia da Laboratorio senza intervenire.\""
+      ]
+    },
+    {
+      "text": "Se la follia umana è la causa di questa tragedia, la sua intelligenza potrà essere la soluzione: mobilitate i ricercatori per trovare un vaccino!",
+      "uniques": [
+      "[-1000 Gold]",
+		 "Lose [1] Population [in all cities]",
+        "[+1 Happiness]",
+        "[-7 Happiness] <for [5] turns>",
+        "[+4 Happiness] <for [12] turns>",
+        "Display message to all players: \"Una civiltà ha reagito alla Pandemia causata da un virus geneticamente modificato trovando un vaccino.\""
+      ]
+    }
+  ]
+}
 	
 ]
