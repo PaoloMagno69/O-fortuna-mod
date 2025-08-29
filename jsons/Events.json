@@ -902,7 +902,7 @@
       {
         "text": "Lascia che si estingua naturalmente",
         "uniques": [
-        "[-1] population [in capital]",
+       "[-1] population [in cities with a [Palace]]",
          "Gain [-1] [Happiness]",
            "Gain [-3] [Happiness] <for [6] turns>",
           "Display message to all players: \"Una civiltà è stata colpita da un'epidemia locale e non è intervenuta.\""
