@@ -1,5 +1,7 @@
 # Unciv-O-Fortuna-mod
 
+Unique random events added to Unciv
+
 «O fortuna
 velut luna
 statu variabilis
