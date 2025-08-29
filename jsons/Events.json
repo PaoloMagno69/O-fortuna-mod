@@ -1,4 +1,8 @@
 [
+// =====================================
+// EVENTS AND DECISIONS
+// =====================================
+
   {
 		"name": "Comet Sighted",
 		"text": "People are often superstitious and the appearance of a comet has convinced many that the end of times is soon to come. Whether or not this is actually the case, this is bound to cause some instability within the nation.",
@@ -758,5 +762,10 @@
 			  "uniques": [	 "All newly-trained [Water] units [in all cities] receive the [Yamato] promotion <for [9999] turns>"] }]
   	},
 	
+// =====================================
+// O FORTUNA
+// =====================================
+
+
 	
 ]
