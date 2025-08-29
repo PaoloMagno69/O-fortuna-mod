@@ -775,8 +775,8 @@
         "uniques": [
           "[-1 Food] [in all cities] <for [5] turns>",
           "[-1 Production] [in all cities] <for [5] turns>",
-          "[-1 Happiness]",
-          "[-3 Happiness] <for [5] turns>",
+		   "Gain [-1] [Happiness]",
+           "Gain [-3] [Happiness] <for [5] turns>",
           "Display message to all players: \"Una civiltà ha subito un'alluvione e ha scelto di subire i danni.\""
         ]
       },
@@ -785,8 +785,8 @@
         "uniques": [
           "[-50 Gold]",
           "[-1 Food] [in all cities] <for [3] turns>",
-          "[+1 Happiness]",
-          "[+2 Happiness] <for [5] turns>",
+          "Gain [+1] [Happiness]",
+          "Gain [+2] [Happiness]  <for [5] turns>",
           "Display message to all players: \"Una civiltà ha reagito a un'alluvione costruendo argini e opere idrauliche.\""
         ]
       }
@@ -800,8 +800,8 @@
         "text": "Subisci la carestia",
         "uniques": [
           "[-2 Food] [in all cities] <for [4] turns>",
-          "[-1 Happiness]",
-          "[-2 Happiness] <for [4] turns>",
+			 "Gain [-1] [Happiness]",
+           "Gain [-2] [Happiness] <for [5] turns>",
           "Display message to all players: \"Una civiltà ha subito una siccità e ha accettato la carestia.\""
         ]
       },
@@ -810,8 +810,8 @@
         "uniques": [
           "[-40 Gold]",
           "[-1 Food] [in all cities] <for [2] turns>",
-          "[+1 Happiness]",
-          "[+2 Happiness] <for [4] turns>",
+          "Gain [+1] [Happiness]",
+           "Gain [+2] [Happiness] <for [5] turns>",
           "Display message to all players: \"Una civiltà ha reagito a una siccità costruendo pozzi e canali di irrigazione.\""
         ]
       }
@@ -826,8 +826,8 @@
         "uniques": [
           "[-1 Food] [in all cities] <for [3] turns>",
           "[-1 Production] [in all cities] <for [3] turns>",
-          "[-1 Happiness]",
-          "[-2 Happiness] <for [3] turns>",
+        "Gain [-1] [Happiness]",
+           "Gain [-3] [Happiness] <for [5] turns>",
           "Display message to all players: \"Una civiltà è stata colpita da una tempesta e ha subito le perdite.\""
         ]
       },
@@ -835,8 +835,8 @@
         "text": "Ripara i danni immediatamente",
         "uniques": [
           "[-30 Gold]",
-          "[+1 Happiness]",
-          "[+2 Happiness] <for [3] turns>",
+          "Gain [+1] [Happiness]",
+           "Gain [+2] [Happiness] <for [5] turns>",
           "Display message to all players: \"Una civiltà ha reagito a una tempesta con lavori di riparazione immediati.\""
         ]
       }
@@ -853,8 +853,8 @@
         "text": "Cosa potremmo mai fare per fermare questa piaga?",
         "uniques": [
           "[-4 Food] [in all cities] <for [8] turns>",
-          "[-1 Happiness]",
-          "[-3 Happiness] <for [8] turns>",
+          "Gain [-1] [Happiness]",
+           "Gain [-3] [Happiness] <for [8] turns>",
           "Display message to all players: \"Una civiltà è stata devastata da cavallette e ha subito i danni.\""
         ]
       },
@@ -863,8 +863,8 @@
         "uniques": [
           "[-150 Gold]",
           "[-1 Food] [in all cities] <for [4] turns>",
-          "[+1 Happiness]",
-          "[+4 Happiness] <for [8] turns>",
+          "Gain [+1] [Happiness]",
+           "Gain [+4] [Happiness] <for [8] turns>",
           "Display message to all players: \"Una civiltà ha reagito a un'invasione di cavallette con misure drastiche.\""
         ]
       }
@@ -878,8 +878,8 @@
         "text": "Contro la natura siamo piccoli e insignificanti, accetta le perdite",
         "uniques": [
           "[-3 Food] [in all cities] <for [8] turns>",
-          "[-1 Happiness]",
-          "[-3 Happiness] <for [8] turns>",
+          "Gain [-1] [Happiness]",
+           "Gain [-3] [Happiness] <for [8] turns>",
           "Display message to all players: \"Una civiltà è stata colpita da una grande alluvione e ha subito gravi perdite.\""
         ]
       },
@@ -888,8 +888,8 @@
         "uniques": [
           "[-200 Gold]",
           "[-1 Food] [in all cities] <for [4] turns>",
-          "[+1 Happiness]",
-          "[+5 Happiness] <for [8] turns>",
+          "Gain [+1] [Happiness]",
+           "Gain [+5] [Happiness] <for [8] turns>",
           "Display message to all players: \"Una civiltà ha reagito a una grande alluvione con enormi opere di ingegneria.\""
         ]
       }
@@ -903,8 +903,8 @@
         "text": "Lascia che si estingua naturalmente",
         "uniques": [
           "Lose [1] Population [in capital]",
-          "[-1 Happiness]",
-          "[-2 Happiness] <for [6] turns>",
+         "Gain [-1] [Happiness]",
+           "Gain [-3] [Happiness] <for [6] turns>",
           "Display message to all players: \"Una civiltà è stata colpita da un'epidemia locale e non è intervenuta.\""
         ]
       },
@@ -914,6 +914,8 @@
           "[-100 Gold]",
           "[+1 Happiness]",
           "[+2 Happiness] <for [6] turns>",
+			 "Gain [+1] [Happiness]",
+           "Gain [+2] [Happiness] <for [6] turns>",
           "Display message to all players: \"Una civiltà ha reagito a un'epidemia locale con cure e medicine.\""
         ]
       }
@@ -927,8 +929,8 @@
         "text": "Lascia che la natura segua il suo corso",
         "uniques": [
           "[-4 Food] [in all cities] <for [10] turns>",
-          "[-1 Happiness]",
-          "[-3 Happiness] <for [10] turns>",
+          "Gain [-1] [Happiness]",
+           "Gain [-3] [Happiness] <for [10] turns>",
           "Display message to all players: \"Una civiltà è stata colpita da una grande siccità e ha subito gravi perdite.\""
         ]
       },
@@ -937,8 +939,8 @@
         "uniques": [
           "[-250 Gold]",
           "[-1 Food] [in all cities] <for [5] turns>",
-          "[+1 Happiness]",
-          "[+4 Happiness] <for [10] turns>",
+         "Gain [+1] [Happiness]",
+           "Gain [+4] [Happiness] <for [10] turns>",
           "Display message to all players: \"Una civiltà ha reagito a una grande siccità con imponenti opere idriche.\""
         ]
       }
