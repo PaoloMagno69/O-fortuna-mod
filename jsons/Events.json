@@ -912,9 +912,7 @@
         "text": "Fornisci i migliori guaritori e le migliori medicine disponibili",
         "uniques": [
           "Gain [-100] [Gold]",
-          "[+1 Happiness]",
-          "[+2 Happiness] <for [6] turns>",
-			 "Gain [+1] [Happiness]",
+         "Gain [+1] [Happiness]",
            "Gain [+3] [Happiness] <for [6] turns>",
 			"Display message to all players: \"Una civiltà ha reagito a un'epidemia locale con cure e medicine.\""
         ]
