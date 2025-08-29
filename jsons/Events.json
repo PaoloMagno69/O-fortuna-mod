@@ -764,9 +764,8 @@
 	
 // =====================================
 // O FORTUNA
-[
-  // =====================================
-  // DISASTRI NATURALI ALTA PROB BASSA MAGNITUDO
+// =====================================
+// DISASTRI NATURALI ALTA PROB BASSA MAGNITUDO
   {
     "name": "Alluvione Locale",
     "text": "Le piogge intense hanno fatto esondare un fiume, danneggiando raccolti e infrastrutture.",
