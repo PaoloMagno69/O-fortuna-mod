@@ -783,7 +783,7 @@
       {
         "text": "Faremo tutti gli interventi possibili per supportare il nostro popolo!",
         "uniques": [
-          "[-50 Gold]",
+          "Gain [-50] [Gold]",
           "[-1 Food] [in all cities] <for [3] turns>",
           "Gain [+1] [Happiness]",
           "Gain [+2] [Happiness]  <for [5] turns>",
@@ -808,7 +808,7 @@
       {
         "text": "Investi in pozzi e irrigazione",
         "uniques": [
-          "[-40 Gold]",
+          "Gain [-40] [Gold]",
           "[-1 Food] [in all cities] <for [2] turns>",
           "Gain [+1] [Happiness]",
            "Gain [+2] [Happiness] <for [5] turns>",
@@ -834,7 +834,7 @@
       {
         "text": "Ripara i danni immediatamente",
         "uniques": [
-          "[-30 Gold]",
+          "Gain [-30] [Gold]",
           "Gain [+1] [Happiness]",
            "Gain [+2] [Happiness] <for [5] turns>",
           "Display message to all players: \"Una civiltà ha reagito a una tempesta con lavori di riparazione immediati.\""
@@ -861,7 +861,7 @@
       {
         "text": "Combatteremo questi sciami con ogni mezzo",
         "uniques": [
-          "[-150 Gold]",
+         "Gain [-150] [Gold]",
           "[-1 Food] [in all cities] <for [4] turns>",
           "Gain [+1] [Happiness]",
            "Gain [+4] [Happiness] <for [8] turns>",
@@ -886,7 +886,7 @@
       {
         "text": "Intervieni con opere gigantesche",
         "uniques": [
-          "[-200 Gold]",
+          "Gain [-200] [Gold]",
           "[-1 Food] [in all cities] <for [4] turns>",
           "Gain [+1] [Happiness]",
            "Gain [+5] [Happiness] <for [8] turns>",
@@ -911,7 +911,7 @@
       {
         "text": "Fornisci i migliori guaritori e le migliori medicine disponibili",
         "uniques": [
-          "[-100 Gold]",
+          "Gain [-100] [Gold]",
           "[+1 Happiness]",
           "[+2 Happiness] <for [6] turns>",
 			 "Gain [+1] [Happiness]",
@@ -937,7 +937,7 @@
       {
         "text": "Interventi massicci di irrigazione e scavi",
         "uniques": [
-          "[-250 Gold]",
+        "Gain [-250] [Gold]",
           "[-1 Food] [in all cities] <for [5] turns>",
          "Gain [+1] [Happiness]",
            "Gain [+4] [Happiness] <for [10] turns>",
