@@ -943,6 +943,160 @@
         ]
       }
     ]
-  }
+  },
+// =====================================
+// DISASTRI NATURALI BASSA PROB ALTA MAGNITUDO
+{
+  "name": "Eruzione Vulcanica",
+  "text": "L'eruzione di un grande vulcano ha uscurato il cielo, devastato enormi territori e messo in ginocchio l'impero",
+  "choices": [
+    {
+      "text": "Il fato ci han punito: non possiamo che piegarci al suo volere",
+      "uniques": [
+        "Lose [2] Population [in all cities]",
+        "[-1 Happiness]",
+        "[-5 Happiness] <for [12] turns>",
+        "Display message to all players: \"Una civiltà è stata devastata da un'eruzione vulcanica e ha subito la catastrofe.\""
+      ]
+    },
+    {
+      "text": "Evacua e proteggi i sopravvissuti, avvia le necessarie opere di ricostruzione",
+      "uniques": [
+        "[-500 Gold]",
+        "Lose [1] Population [in capital]",
+        "[+1 Happiness]",
+        "[+6 Happiness] <for [12] turns>",
+        "Display message to all players: \"Una civiltà ha reagito a un'eruzione vulcanica evacuando e salvando vite umane ed avviando la ricostruzione.\""
+      ]
+    }
   ]
+},
+{
+  "name": "Grande Terremoto",
+  "text": "Un terremoto catastrofico scuote la regione, distruggendo edifici e campi.",
+  "choices": [
+    {
+      "text": "Il fato ci han punito: non possiamo che piegarci al suo volere",
+      "uniques": [
+        "Lose [1] Population [in all cities]",
+        "[-1 Happiness]",
+        "[-4 Happiness] <for [10] turns>",
+        "Display message to all players: \"Una civiltà ha subito un grande terremoto con danni enormi.\""
+      ]
+    },
+    {
+      "text": "Evacua e proteggi i sopravvissuti, avvia le necessarie opere di ricostruzione",
+      "uniques": [
+        "[-400 Gold]",
+        "[+1 Happiness]",
+        "[+5 Happiness] <for [10] turns>",
+        "Display message to all players: \"Una civiltà ha reagito a un grande terremoto con lavori di soccorso e rinforzo.\""
+      ]
+    }
+  ]
+},
+{
+  "name": "Tsunami Devastante",
+  "text": "Un'onda gigantesca travolge le coste, causando danni incalcolabili.",
+  "choices": [
+    {
+      "text": "Il fato ci han punito: non possiamo che piegarci al suo volere",
+      "uniques": [
+        "Lose [2] Population [in all cities]",
+        "[-1 Happiness]",
+        "[-6 Happiness] <for [12] turns>",
+        "Display message to all players: \"Una civiltà è stata colpita da un tsunami e ha subito danni terribili.\""
+      ]
+    },
+    {
+      "text": "Evacua e proteggi le coste",
+      "uniques": [
+        "[-600 Gold]",
+        "[+1 Happiness]",
+        "[+6 Happiness] <for [12] turns>",
+        "Display message to all players: \"Una civiltà ha reagito a un devastante tsunami proteggendo le sue coste.\""
+      ]
+    }
+  ]
+},
 
+{
+  "name": "Peste Globale",
+  "text": "Una grande peste si diffonde in tutto il mondo, colpendo città e villaggi: sarà forse la fine dell'umanità?.",
+  "choices": [
+    {
+      "text": "Ognuno preghi i suoi dei, solo loro possono salvarci!",
+      "uniques": [
+        "Lose [3] Population [in all cities]",
+        "[-1 Happiness]",
+        "[-10 Happiness] <for [20] turns>",
+        "Display message to all players: \"Una civiltà è stata colpita dalla Grande Peste e ha subito le perdite.\""
+      ]
+    },
+    {
+      "text": "Non abbiamo mai dovuto affrontare una prova così grande ma non ci arrenderemo: mobilitate guaritori, templi e scienziati!",
+      "uniques": [
+        "[-1000 Gold]",
+		 "Lose [1] Population [in all cities]",
+        "[+1 Happiness]",
+        "[-7 Happiness] <for [5] turns>",
+        "[+4 Happiness] <for [12] turns>",
+        "Display message to all players: \"Una civiltà ha reagito alla Grande Peste con riti e cure diffuse.\""
+      ]
+    }
+  ]
+},
+{
+  "name": "Pandemia di Influenza",
+  "text": "Una pandemia influenzale si diffonde tra le città, paralizzando economie e popolazioni.",
+  "choices": [
+    {
+      "text": "Ognuno preghi il suo dio, solo lui può salvarci!",
+      "uniques": [
+        "Lose [3] Population [in all cities]",
+        "[-1 Happiness]",
+        "[-10 Happiness] <for [20] turns>",
+        "Display message to all players: \"Una civiltà ha subito la Pandemia di Influenza e ha accettato le conseguenze.\""
+      ]
+    },
+    {
+      "text": "Non abbiamo mai dovuto affrontare una prova così grande ma non ci arrenderemo: mobilitate medici e ospedali!",
+      "uniques": [
+        "[-1000 Gold]",
+		 "Lose [1] Population [in all cities]",
+        "[+1 Happiness]",
+        "[-7 Happiness] <for [5] turns>",
+        "[+4 Happiness] <for [12] turns>",
+        "Display message to all players: \"Una civiltà ha reagito alla Pandemia di Influenza con misure straordinarie.\""
+      ]
+    }
+  ]
+},
+{
+  "name": "Pandemia da Laboratorio",
+  "text": "Un virus manipolato geneticamente è sfuggito da un laboratorio, causando panico globale.",
+  "choices": [
+    {
+      "text": "Siamo la causa della nostra distruzione, non possiamo che sperare nella fortuna",
+      "uniques": [
+        "Lose [3] Population [in all cities]",
+        "[-1 Happiness]",
+        "[-10 Happiness] <for [20] turns>",
+        "Display message to all players: \"Una civiltà ha subito una Pandemia da Laboratorio senza intervenire.\""
+      ]
+    },
+    {
+      "text": "Se la follia umana è la causa di questa tragedia, la sua intelligenza potrà essere la soluzione: mobilitate i ricercatori per trovare un vaccino!",
+      "uniques": [
+      "[-1000 Gold]",
+		 "Lose [1] Population [in all cities]",
+        "[+1 Happiness]",
+        "[-7 Happiness] <for [5] turns>",
+        "[+4 Happiness] <for [12] turns>",
+        "Display message to all players: \"Una civiltà ha reagito alla Pandemia causata da un virus geneticamente modificato trovando un vaccino.\""
+      ]
+    }
+  ]
+}
+	
+]
