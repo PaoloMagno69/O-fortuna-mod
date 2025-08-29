@@ -1,17 +1,45 @@
 [
 	{
-		"name": "Phasers",
-		"unitType": "Ranged",
-		"uniqueTo": "Aliens",
-		"replaces": "Machine Gun",
+		"name": "PMC",
+		"unitType": "Gunpowder",
 		"movement": 2,
-		"strength": 90,
-		"rangedStrength": 36,
-		"range": 2,
-		"cost": 500,
-		"requiredTech": "Ballistics",
-		"requiredResource": "Uranium",
-		"promotions": ["Logistics","Accuracy I"],
-		"attackSound": "phasers"
-	}
+		"cost": 100,
+		"strength": 80,
+		"promotions": ["Logistics"],
+		"uniques": ["Unbuildable","Cannot be purchased"]
+		"attackSound": "gun"
+	},
+	
+	{
+        "name": "Teutonic Order Knight",
+        "unitType": "Mounted",
+        "movement": 4,
+        "strength": 27,
+        "cost": 120,
+        "upgradesTo": "Cavalry",
+        "uniques": ["Can move after attacking", "No defensive terrain bonus", "[-33]% Strength <vs cities> <when attacking>","Unbuildable","Cannot be purchased"],
+        "attackSound": "horse"
+    },
+
+	{
+        "name": "Livonian Order Knight",
+        "unitType": "Mounted",
+        "movement": 6,
+        "strength": 20,
+        "cost": 120,
+        "upgradesTo": "Cavalry",
+        "uniques": ["Can move after attacking", "No defensive terrain bonus", "[-33]% Strength <vs cities> <when attacking>","Unbuildable","Cannot be purchased"],
+        "attackSound": "horse"
+    },
+
+	{
+        "name": "Pomeranian Knight",
+        "unitType": "Mounted",
+        "movement": 4,
+        "strength": 20,
+        "cost": 120,
+        "upgradesTo": "Cavalry",
+        "uniques": ["Can move after attacking", "No defensive terrain bonus", "Unbuildable","Cannot be purchased"],
+        "attackSound": "horse"
+    },
 ]
