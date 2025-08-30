@@ -830,7 +830,7 @@
         "text": "Ripara i danni immediatamente",
         "uniques": [
           "Gain [-30] [Gold]",
- [+2]      "[+2 Happiness] [in all cities] <for [5] turns>",
+     "[+2 Happiness] [in all cities] <for [5] turns>",
           "Display message to all players: \"Una civiltà ha reagito a una tempesta con lavori di riparazione immediati.\""
         ]
       }
